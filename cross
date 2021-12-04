@@ -22,13 +22,6 @@ if not getgenv().CursorConfig then
     }
 end
 
-local Cursor = Drawing.new("Triangle")
-Cursor.Visible = true
-Cursor.Transparency = CursorConfig.Transparency
-Cursor.Color = CursorConfig.Color
-Cursor.Thickness = 1
-Cursor.Filled = true
-
 local CrosshairL = Drawing.new("Line")
 CrosshairL.Visible = true
 CrosshairL.Transparency = CursorConfig.CrosshairTransparency

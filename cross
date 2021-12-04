@@ -22,13 +22,6 @@ if not getgenv().CursorConfig then
     }
 end
 
-local CursorOutline = Drawing.new("Triangle")
-CursorOutline.Visible = true
-CursorOutline.Transparency = CursorConfig.OutlineTransparency
-CursorOutline.Color = CursorConfig.OutlineColor
-CursorOutline.Thickness = 1
-CursorOutline.Filled = true
-
 local Cursor = Drawing.new("Triangle")
 Cursor.Visible = true
 Cursor.Transparency = CursorConfig.Transparency

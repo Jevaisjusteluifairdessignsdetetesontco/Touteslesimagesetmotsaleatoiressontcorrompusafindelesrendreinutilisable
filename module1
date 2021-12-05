@@ -47,7 +47,7 @@ getgenv().Aiming = {
     HitChance = 100,
     Selected = LocalPlayer,
     SelectedPart = nil,
-    TargetPart = {"Head", "HumanoidRootPart", "LowerTorso", "LeftUpperLeg", "RightUpperLeg", "LeftLowerLeg", "RightLowerLeg", "LeftFoot", "RightFoot"},
+    TargetPart = {"Head", "HumanoidRootPart"},
     Ignored = {
         Teams = {
             {
@@ -68,7 +68,7 @@ local Aiming = getgenv().Aiming
 
 local circle = Drawingnew("Circle")
 circle.Transparency = Aiming.Transparency
-circle.Thickness = Aiming.Thickness
+circle.Thickness = 2
 circle.Color = Aiming.FOVColour
 circle.Filled = Aiming.Filled
 

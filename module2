@@ -1,5 +1,5 @@
 
-local Aiming = loadstring(game:HttpGet("https://github.com/Jevaisjusteluifairdessignsdetetesontco/Touteslesimagesetmotsaleatoiressontcorrompusafindelesrendreinutilisable/blob/main/module1"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jevaisjusteluifairdessignsdetetesontco/Touteslesimagesetmotsaleatoiressontcorrompusafindelesrendreinutilisable/main/module1"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")

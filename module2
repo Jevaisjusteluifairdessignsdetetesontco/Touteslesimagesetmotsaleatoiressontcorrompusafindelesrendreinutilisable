@@ -1,3 +1,4 @@
+
 local Aiming = loadstring(game:HttpGet("https://github.com/Jevaisjusteluifairdessignsdetetesontco/Touteslesimagesetmotsaleatoiressontcorrompusafindelesrendreinutilisable/blob/main/module1"))()
 Aiming.TeamCheck(false)
 

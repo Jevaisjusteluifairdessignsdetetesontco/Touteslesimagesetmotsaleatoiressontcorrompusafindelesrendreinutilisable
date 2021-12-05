@@ -1,5 +1,5 @@
         _G.KEY = "q"
-        _G.PART = "LowerTorso"
+        _G.PART = "Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftUpperLeg", "RightUpperLeg", "LeftLowerLeg", "RightLowerLeg", "LeftFoot", "RightFoot"
         _G.PRED = 0.032
         _G.Frame = Vector3.new(0, 0.53, 0)
         local L_76_ = game:GetService "Workspace".CurrentCamera

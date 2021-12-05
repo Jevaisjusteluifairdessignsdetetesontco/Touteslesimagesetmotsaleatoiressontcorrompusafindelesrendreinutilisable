@@ -43,7 +43,6 @@ getgenv().Aiming = {
     FOV = 25,
     Filled = false,
     Transparency = .1,
-    Thickness = 1,
     
     HitChance = 100,
     Selected = LocalPlayer,
@@ -83,7 +82,6 @@ function Aiming.UpdateFOV()
         circle.Color = Aiming.FOVColour
         circle.Transparency = Aiming.Transparency
         circle.Filled = Aiming.Filled
-        circle.Thickness = Aiming.Thickness
         -- // Return circle
         return circle
     end
